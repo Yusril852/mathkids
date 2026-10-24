@@ -288,7 +288,7 @@ CH=['Bilangan, bangun, dan pola','Bilangan 100, pecahan, dan waktu','Perkalian, 
 CI=['🌱','🌿','🌳','🌻','🚀','🏆'],
 HM=[1,2,3,4,5,6],
 KL=['1','2','3','4','5','6'],
-SK2=['SD Negeri 1 Purwokerto','SD Negeri 2 Purwokerto','SD Negeri 1 Patukangan','SD Negeri 2 Patukangan','SD Negeri 1 Pegulon','SD Negeri 2 Pegulon','SD IT Robbani','SD Muhammadiyah Purin'];
+SK2=['SD Negeri 1 Purwokerto','SD Negeri 2 Purwokerto','SD Negeri 1 Patukangan','SD Negeri 2 Patukangan','SD Negeri 1 Pegulon','SD Negeri 2 Pegulon','SD IT Robbani','SD Muhammadiyah Purin','SD Universal Ananda'];
 const PV={},gq=(g,i,L)=>{const b=CXM[g][i];return b&&Math.random()<[.3,.6,.85][L-1]?CB[b](g):T[g][i].g()};
 const mk=(g,i,L)=>{LV=L;const pool=i==null?T[g].map((_,j)=>j):[i],key=g+'.'+i+'.'+L,pv=PV[key]||new Set,qs=[],seen=new Set;for(let n=0;n<1800&&qs.length<25;n++){if(n==600)LV=Math.min(3,L+1);if(n==1200)LV=3;const j=pick(pool),q=gq(g,j,L),k=q.q+q.g;if(seen.has(k)||(n<400&&pv.has(k)))continue;seen.add(k);q.j=j;qs.push(q)}PV[key]=seen;return qs};
 /* ================= FIREBASE: sinkronisasi, presence, guru ================= */
